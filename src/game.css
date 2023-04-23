@@ -1,0 +1,26 @@
+@import 'normalize.css';
+
+body {
+  background-color: #242424;
+}
+
+canvas {
+  display: block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@font-face {
+  font-family: 'Hugmate';
+  src: url('/fonts/Hugmate.ttf');
+}
+
+.font-loader {
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+  font-family: 'Hugmate', sans-serif;
+}

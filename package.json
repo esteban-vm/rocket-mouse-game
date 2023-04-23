@@ -1,0 +1,43 @@
+{
+  "name": "rocket-mouse-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Phaser 3 + Vite + TypeScript",
+  "homepage": "https://github.com/esteban-90/rocket-mouse-game#readme",
+  "author": {
+    "name": "Esteban Vera Mantero",
+    "email": "estebanvm1990@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esteban-90/rocket-mouse-game.git"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host",
+    "format": "prettier --write .",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint --fix src/**/*.ts",
+    "assets": "rm -rf public/icons/* && pwa-asset-generator https://user-images.githubusercontent.com/2236153/82955354-e1fd1c80-9f6b-11ea-939e-7c5c62c90dac.png public/icons -i index.html -t png -e -f -w -o false"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3",
+    "pwa-asset-generator": "^6.2.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0",
+    "vite-plugin-pwa": "^0.14.4",
+    "vite-tsconfig-paths": "^4.0.5"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "phaser": "^3.55.2"
+  }
+}
