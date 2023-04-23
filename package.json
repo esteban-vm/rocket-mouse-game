@@ -5,14 +5,14 @@
   "type": "module",
   "license": "MIT",
   "description": "Phaser 3 + Vite + TypeScript",
-  "homepage": "https://github.com/esteban-90/rocket-mouse-game#readme",
+  "homepage": "https://github.com/esteban-vm/rocket-mouse-game#readme",
   "author": {
     "name": "Esteban Vera Mantero",
     "email": "estebanvm1990@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/esteban-90/rocket-mouse-game.git"
+    "url": "https://github.com/esteban-vm/rocket-mouse-game.git"
   },
   "scripts": {
     "dev": "vite --host",
